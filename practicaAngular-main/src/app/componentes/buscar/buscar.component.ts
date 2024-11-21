@@ -32,8 +32,6 @@ export class BuscarComponent {
     { name: "Fecha", prop: "fecha" },
   ];
 
-  public columnasDef = this.columnas.map(col => col.prop);
-
   constructor(private festivoServicio: ApiService) {}
 
   ngOnInit(): void {
