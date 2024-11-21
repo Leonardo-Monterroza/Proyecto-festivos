@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 226, 239);
+    box-sizing: border-box;
+}
+.boxH1{
+    height: 80px;
+    width: auto;
+}
+
+.fontGistesy{
+    color:black;
+    text-align: center;
+    font-family: Gistesy;
+    font-size: 60px;
+}
+
+.fontGistesy2{
+    color:white;
+    text-align: center;
+    font-family: Gistesy;
+    font-size: 35px;
+    text-decoration: none;
+}
+
+.borderLink{
+    border: 20px  solid black;
+    background-color: black;
+    text-align: center;
+    border-radius: 5%;
+}
+
+
+.textoGeneral{
+    color:black;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.megaDiv{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: auto;
+}
+
+.contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    max-width: 1000%;
+}
+
+.imagenesContenedor{
+    text-align: center;
+    height: 250px;
+    width: 250PX;
+    max-width: 50%;
+}
+
+.h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.active-link {
+    font-weight: bold;
+    color: blue; /* O cualquier otro estilo que desees */
+  }

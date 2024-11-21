@@ -1,0 +1,18 @@
+<h1 class="titulo">LISTA DE FESTIVOS EN COLOMBIA</h1>
+
+<div class="table-container">
+  
+    <ngx-datatable 
+      class="dark mat-elevation-z8"
+      [rows]="festivos" 
+      [columns]="columnas" 
+      [rowHeight]="'auto'" 
+      [headerHeight]="50"
+      [footerHeight]="50" 
+      [limit]="20" 
+      [columnMode]="modoColumna.force" 
+      [selectionType]="tipoSeleccion.single"
+      (activate)="escoger($event)">
+    </ngx-datatable>
+  </div>
+  

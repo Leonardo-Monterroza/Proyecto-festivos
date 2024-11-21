@@ -1,0 +1,20 @@
+<h1 class="titulo">LISTA DE FESTIVOS EN COLOMBIA</h1>
+
+<div class="table-container">
+  <mat-form-field appearance="fill">
+    <mat-label>Ingrese el Año</mat-label>
+    <input matInput [(ngModel)]="fecha" (ngModelChange)="onFechaChange()" placeholder="Año" type="number">
+  </mat-form-field>
+
+
+  <ngx-datatable
+    class="dark mat-elevation-z8"
+    [rows]="resultados"
+    [columns]="columnas"
+    [rowHeight]="'auto'"
+    [headerHeight]="50"
+    [footerHeight]="50"
+    [limit]="20"
+    [columnMode]="'force'">
+  </ngx-datatable>
+</div>

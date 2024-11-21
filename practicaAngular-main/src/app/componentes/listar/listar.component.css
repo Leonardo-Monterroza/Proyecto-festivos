@@ -1,0 +1,66 @@
+.table-container {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f7fa;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.titulo {
+  font-family: 'Roboto', sans-serif; /* Fuente moderna */
+  font-size: 36px; /* Tamaño de la fuente */
+  font-weight: bold; /* Negrita */
+  color: #699ee4; /* Color de texto blanco */
+  background: linear-gradient(90deg, #2196F3, #03A9F4); /* Gradiente de color azul */
+  -webkit-background-clip: text; /* Aplica el fondo al texto */
+  background-clip: text;
+  padding: 10px 20px; /* Espaciado alrededor del texto */
+  text-align: center; /* Centra el texto */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  letter-spacing: 1px; /* Espaciado entre letras */
+  text-transform: uppercase; /* Todo en mayúsculas */
+  margin-bottom: 20px; /* Espacio abajo */
+}
+
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 30%;
+}
+
+ngx-datatable {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mat-header-row {
+  background-color: #2196F3;
+  color: white;
+  font-weight: bold;
+}
+
+.mat-row:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+mat-header-cell, mat-cell {
+  text-align: center;
+  padding: 16px;
+}
+
+.mat-header-cell {
+  font-size: 16px;
+}
+
+.mat-cell {
+  font-size: 14px;
+}

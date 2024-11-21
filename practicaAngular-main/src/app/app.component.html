@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="boxRutasNavegacion">
+    <ul>
+      <li><a class="routeNavegacion" (click)="navigateToInicio()">Inicio</a></li>
+      <li><a class="routeNavegacion" (click)="navigateToBuscar()">Listar festivos</a></li>
+      <li><a class="routeNavegacion" (click)="navigateToListar()">Buscar por año</a></li>
+    </ul>
+  </nav>
+  
+  <div class="divImagenMapaColombia">
+    <img routerLink="/home" id="imagenMapaColombia" src="../../../assets/MapaColombia.png" alt="MapaColombia">
+  </div>
+  <router-outlet></router-outlet>
+</body>
+</html>
